@@ -13,8 +13,9 @@ const connect = function() {
     console.log(data);
   });
 
-  conn.on("connect", () => {
+  conn.on("connect", (Name) => {
     console.log("connection successful!");
+    conn.write("Name: AMS");
   });
   
 

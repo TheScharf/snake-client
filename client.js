@@ -31,5 +31,3 @@ module.exports = {
 
 
 
-console.log("Connecting ...");
-connect();

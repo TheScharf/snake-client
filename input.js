@@ -29,6 +29,9 @@ const handleUserInput = process.stdin.on('data', (key) => {
   if (key === 'd') {
     connection.write('Move: right');
   }
+  if (key === 't') {
+    connection.write('Say: I am pizza!');
+  }
 
 });
 
